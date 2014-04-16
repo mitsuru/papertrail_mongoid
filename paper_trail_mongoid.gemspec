@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'rails',   '~> 3'
-  s.add_dependency 'mongoid', '~> 4'
+  s.add_dependency 'mongoid', '~> 4.0.0.beta1'
 
   s.add_development_dependency 'shoulda',      '2.10.3'
   s.add_development_dependency 'capybara',     '>= 0.4.0'
